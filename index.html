@@ -1,117 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Anand Dalvi — Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f9f9f9; }
-    header { background: #0b63ff; color: #fff; padding: 2rem; text-align: center; }
-    header h1 { margin: 0; }
-    header p { margin: 0.5rem 0; }
-    section { padding: 2rem; max-width: 900px; margin: auto; }
-    h2 { color: #0b63ff; margin-top: 0; }
-    ul { padding-left: 20px; }
-    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
-    .card { background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    .card h3 { margin-top: 0; color: #0b63ff; }
-    footer { background: #f4f4f4; text-align: center; padding: 1rem; margin-top: 2rem; }
-    a { color: #0b63ff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anand Dalvi | Home</title>
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header>
-    <h1>Anand Dalvi</h1>
-    <p>MSc Economics (Data Analytics) | Aspiring Data Analyst</p>
-    <p><a href="Anand_Dalvi_CV1.pdf" style="color: #fff; text-decoration: underline;">Download CV</a></p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
   </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am pursuing an MSc in Economics (Data Analytics) at Symbiosis School of Economics (expected 2026). I enjoy working with data, building insights, and applying economic reasoning to real-world challenges.</p>
-  </section>
-
-  <section id="education">
-    <h2>Education</h2>
-    <ul>
-      <li>MSc Economics (Data Analytics), Symbiosis School of Economics — Expected 2026</li>
-      <li>BSc Economics, Gokhale Institute of Politics & Economics — 2024</li>
-    </ul>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>Python (pandas, NumPy)</li>
-      <li>R & SQL</li>
-      <li>Power BI & Excel</li>
-      <li>Data Analysis & Visualization</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects">
-
-      <div class="card">
-        <h3>Urban Air Pollution & Economic Implications (2021–2023)</h3>
-        <p>White paper analyzing air quality trends in Pune, Hyderabad, and Bangalore using data mining techniques such as K-means clustering, seasonal decomposition, and correlation analysis.</p>
-        <p><strong>Key Contributions:</strong></p>
-        <ul>
-          <li>Performed time-series decomposition to identify seasonal peaks and long-term pollution trends.</li>
-          <li>Clustered cities by pollution intensity; Pune identified as high-risk cluster.</li>
-          <li>Mapped interdependencies between PM2.5, PM10, NO₂, and meteorological factors.</li>
-          <li>Proposed policy roadmap including clean energy transition and emission trading schemes.</li>
-        </ul>
-        <p><a href="https://drive.google.com/drive/folders/1RFXDsXcLPvYuCxtqOk7gkrYK4PmagRPz?usp=sharing" target="_blank">View Analysis</a> | <a href="https://colab.research.google.com/drive/1szVfyEhhFFvDZItp0gsI-FDYixnV_W2X?usp=sharing" target="_blank">View Code</a></p>
-      </div>
-
-      <div class="card">
-        <h3>Supply Chain Optimization Model</h3>
-        <p>Developed a logistics optimization model in GAMS to minimize costs and improve efficiency.</p>
-        <p><strong>Key Contributions:</strong></p>
-        <ul>
-          <li>Formulated a linear programming model for supply chain flows.</li>
-          <li>Reduced transportation costs by simulating multiple scenarios.</li>
-          <li>Demonstrated optimization techniques as part of academic coursework.</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Women's Health Issues in India (Undergraduate Thesis)</h3>
-        <p>Analyzed survey datasets to study healthcare access challenges faced by women across Indian states.</p>
-        <p><strong>Key Contributions:</strong></p>
-        <ul>
-          <li>Cleaned and processed large secondary datasets in Excel.</li>
-          <li>Identified regional disparities in women’s health outcomes.</li>
-          <li>Suggested policy recommendations for improving healthcare access.</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Banking Transaction Analysis (Power BI)</h3>
-        <p>Normalized unstructured banking transaction data into 3NF schema and created interactive Power BI dashboards.</p>
-        <p><strong>Key Contributions:</strong></p>
-        <ul>
-          <li>Created dimension tables and designed a star schema.</li>
-          <li>Calculated Net Relationship Value (NRV) for customers.</li>
-          <li>Visualized top cities by NRV and transaction volume.</li>
-        </ul>
-        <p><em>File: Banking_Analysis.pbix</em></p>
-      </div>
-
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:anand.dalvi.2024@sse.ac.in">anand.dalvi.2024@sse.ac.in</a></p>
-    <p>GitHub: <a href="https://github.com/YOUR_USERNAME" target="_blank">github.com/YOUR_USERNAME</a></p>
-  </section>
+  <main>
+    <section class="hero">
+      <h1>Hello, I’m Anand Dalvi 👋</h1>
+      <p>Welcome to my personal portfolio website.</p>
+      <img src="assets/images/profile.jpg" alt="Profile Photo" class="profile-pic">
+    </section>
+  </main>
 
   <footer>
-    <p>© 2025 Anand Dalvi. All rights reserved.</p>
+    <p>&copy; 2025 Anand Dalvi</p>
   </footer>
 </body>
 </html>
